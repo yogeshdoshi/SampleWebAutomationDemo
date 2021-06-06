@@ -1,13 +1,14 @@
 package com.parabank.pages;
 
+import java.util.HashMap;
+
+import org.openqa.selenium.Cookie;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-
-import com.test.util.TestUtil;
 
 public class HomePg {
 WebDriver driver;
@@ -33,7 +34,6 @@ ExpectedConditions.visibilityOf(username);
 username.sendKeys(uname);
 password.sendKeys(pass);
 logInbtn.click();
-
 }
 
 

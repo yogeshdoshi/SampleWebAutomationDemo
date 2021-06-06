@@ -1,17 +1,217 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="10" passed="10">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="3997" started-at="2021-06-06T18:21:03Z" finished-at="2021-06-06T18:21:07Z">
+  <suite name="Suite" duration-ms="25971" started-at="2021-06-06T20:10:02Z" finished-at="2021-06-06T20:10:28Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="3997" started-at="2021-06-06T18:21:03Z" finished-at="2021-06-06T18:21:07Z">
-      <class name="com.axelerant.Assignment2">
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.axelerant.Assignment2@2002fc1d]" name="beforeTest" is-config="true" duration-ms="11" started-at="2021-06-06T18:21:03Z" finished-at="2021-06-06T18:21:03Z">
+    <test name="UITest" duration-ms="22432" started-at="2021-06-06T20:10:02Z" finished-at="2021-06-06T20:10:24Z">
+      <class name="com.axelerant.Assignment1Test">
+        <test-method status="PASS" signature="loginTest()[pri:0, instance:com.axelerant.Assignment1Test@4009e306]" name="loginTest" duration-ms="1639" started-at="2021-06-06T20:10:02Z" finished-at="2021-06-06T20:10:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.axelerant.Assignment1Test@4009e306]" name="getResult" is-config="true" duration-ms="3" started-at="2021-06-06T20:10:03Z" finished-at="2021-06-06T20:10:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginTest status=SUCCESS method=Assignment1.loginTest()[pri:0, instance:com.axelerant.Assignment1Test@4009e306] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="verifyNewAccountOpening_TC001(java.lang.String)[pri:0, instance:com.axelerant.Assignment1Test@4009e306]" name="verifyNewAccountOpening_TC001" duration-ms="3337" started-at="2021-06-06T20:10:03Z" data-provider="accounttype" depends-on-methods="com.axelerant.Assignment1Test.loginTest" finished-at="2021-06-06T20:10:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CHECKING]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyNewAccountOpening_TC001 -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.axelerant.Assignment1Test@4009e306]" name="getResult" is-config="true" duration-ms="0" started-at="2021-06-06T20:10:07Z" finished-at="2021-06-06T20:10:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyNewAccountOpening_TC001 status=SUCCESS method=Assignment1.verifyNewAccountOpening_TC001(java.lang.String)[pri:0, instance:com.axelerant.Assignment1Test@4009e306] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="verifyNewAccountOpening_TC001(java.lang.String)[pri:0, instance:com.axelerant.Assignment1Test@4009e306]" name="verifyNewAccountOpening_TC001" duration-ms="2922" started-at="2021-06-06T20:10:07Z" data-provider="accounttype" depends-on-methods="com.axelerant.Assignment1Test.loginTest" finished-at="2021-06-06T20:10:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[SAVINGS]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyNewAccountOpening_TC001 -->
+        <test-method status="PASS" signature="verifyNewlyCreatedAccountDetails_TC002(int, java.lang.String)[pri:0, instance:com.axelerant.Assignment1Test@4009e306]" name="verifyNewlyCreatedAccountDetails_TC002" duration-ms="3350" started-at="2021-06-06T20:10:10Z" data-provider="getNewlyCreatedAccountNos" depends-on-methods="com.axelerant.Assignment1Test.verifyNewAccountOpening_TC001" finished-at="2021-06-06T20:10:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[27219]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[CHECKING]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyNewlyCreatedAccountDetails_TC002 -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.axelerant.Assignment1Test@4009e306]" name="getResult" is-config="true" duration-ms="0" started-at="2021-06-06T20:10:10Z" finished-at="2021-06-06T20:10:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyNewAccountOpening_TC001 status=SUCCESS method=Assignment1.verifyNewAccountOpening_TC001(java.lang.String)[pri:0, instance:com.axelerant.Assignment1Test@4009e306] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.axelerant.Assignment1Test@4009e306]" name="getResult" is-config="true" duration-ms="0" started-at="2021-06-06T20:10:13Z" finished-at="2021-06-06T20:10:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyNewlyCreatedAccountDetails_TC002 status=SUCCESS method=Assignment1.verifyNewlyCreatedAccountDetails_TC002(int, java.lang.String)[pri:0, instance:com.axelerant.Assignment1Test@4009e306] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="verifyNewlyCreatedAccountDetails_TC002(int, java.lang.String)[pri:0, instance:com.axelerant.Assignment1Test@4009e306]" name="verifyNewlyCreatedAccountDetails_TC002" duration-ms="2779" started-at="2021-06-06T20:10:13Z" data-provider="getNewlyCreatedAccountNos" depends-on-methods="com.axelerant.Assignment1Test.verifyNewAccountOpening_TC001" finished-at="2021-06-06T20:10:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[27330]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[SAVINGS]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyNewlyCreatedAccountDetails_TC002 -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.axelerant.Assignment1Test@4009e306]" name="getResult" is-config="true" duration-ms="1" started-at="2021-06-06T20:10:16Z" finished-at="2021-06-06T20:10:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyNewlyCreatedAccountDetails_TC002 status=SUCCESS method=Assignment1.verifyNewlyCreatedAccountDetails_TC002(int, java.lang.String)[pri:0, instance:com.axelerant.Assignment1Test@4009e306] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="paymentTransferAndVerifyTransactionDetails_TC003_001()[pri:0, instance:com.axelerant.Assignment1Test@4009e306]" name="paymentTransferAndVerifyTransactionDetails_TC003_001" duration-ms="1318" started-at="2021-06-06T20:10:16Z" depends-on-methods="com.axelerant.Assignment1Test.verifyNewlyCreatedAccountDetails_TC002" finished-at="2021-06-06T20:10:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- paymentTransferAndVerifyTransactionDetails_TC003_001 -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.axelerant.Assignment1Test@4009e306]" name="getResult" is-config="true" duration-ms="0" started-at="2021-06-06T20:10:17Z" finished-at="2021-06-06T20:10:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=paymentTransferAndVerifyTransactionDetails_TC003_001 status=SUCCESS method=Assignment1.paymentTransferAndVerifyTransactionDetails_TC003_001()[pri:0, instance:com.axelerant.Assignment1Test@4009e306] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="paymentTransferAndVerifyTransactionDetails_TC003_002(int, java.lang.String)[pri:0, instance:com.axelerant.Assignment1Test@4009e306]" name="paymentTransferAndVerifyTransactionDetails_TC003_002" duration-ms="3277" started-at="2021-06-06T20:10:17Z" data-provider="getNewlyCreatedAccountNos" depends-on-methods="com.axelerant.Assignment1Test.paymentTransferAndVerifyTransactionDetails_TC003_001" finished-at="2021-06-06T20:10:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[27219]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[CHECKING]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- paymentTransferAndVerifyTransactionDetails_TC003_002 -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.axelerant.Assignment1Test@4009e306]" name="getResult" is-config="true" duration-ms="0" started-at="2021-06-06T20:10:20Z" finished-at="2021-06-06T20:10:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=paymentTransferAndVerifyTransactionDetails_TC003_002 status=SUCCESS method=Assignment1.paymentTransferAndVerifyTransactionDetails_TC003_002(int, java.lang.String)[pri:0, instance:com.axelerant.Assignment1Test@4009e306] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="paymentTransferAndVerifyTransactionDetails_TC003_002(int, java.lang.String)[pri:0, instance:com.axelerant.Assignment1Test@4009e306]" name="paymentTransferAndVerifyTransactionDetails_TC003_002" duration-ms="2737" started-at="2021-06-06T20:10:20Z" data-provider="getNewlyCreatedAccountNos" depends-on-methods="com.axelerant.Assignment1Test.paymentTransferAndVerifyTransactionDetails_TC003_001" finished-at="2021-06-06T20:10:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[27330]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[SAVINGS]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- paymentTransferAndVerifyTransactionDetails_TC003_002 -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.axelerant.Assignment1Test@4009e306]" name="getResult" is-config="true" duration-ms="0" started-at="2021-06-06T20:10:23Z" finished-at="2021-06-06T20:10:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=paymentTransferAndVerifyTransactionDetails_TC003_002 status=SUCCESS method=Assignment1.paymentTransferAndVerifyTransactionDetails_TC003_002(int, java.lang.String)[pri:0, instance:com.axelerant.Assignment1Test@4009e306] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.axelerant.Assignment1Test@4009e306]" name="afterTest" is-config="true" duration-ms="1040" started-at="2021-06-06T20:10:23Z" finished-at="2021-06-06T20:10:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.axelerant.Assignment1Test -->
+    </test> <!-- UITest -->
+    <test name="API_Test" duration-ms="3528" started-at="2021-06-06T20:10:24Z" finished-at="2021-06-06T20:10:28Z">
+      <class name="com.axelerant.Assignment1Test">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.axelerant.Assignment1Test@4009e306]" name="beforeSuite" is-config="true" duration-ms="9261" started-at="2021-06-06T20:09:53Z" finished-at="2021-06-06T20:10:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="suiteTeardown()[pri:0, instance:com.axelerant.Assignment1Test@4009e306]" name="suiteTeardown" is-config="true" duration-ms="137" started-at="2021-06-06T20:10:28Z" finished-at="2021-06-06T20:10:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- suiteTeardown -->
+      </class> <!-- com.axelerant.Assignment1Test -->
+      <class name="com.axelerant.Assignment2Test">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.axelerant.Assignment2Test@5c671d7f]" name="beforeTest" is-config="true" duration-ms="4" started-at="2021-06-06T20:10:24Z" finished-at="2021-06-06T20:10:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="createAccount(java.lang.String)[pri:1, instance:com.axelerant.Assignment2@2002fc1d]" name="createAccount" duration-ms="2700" started-at="2021-06-06T18:21:03Z" data-provider="getAccountType" finished-at="2021-06-06T18:21:05Z">
+        <test-method status="PASS" signature="createAccount(java.lang.String)[pri:1, instance:com.axelerant.Assignment2Test@5c671d7f]" name="createAccount" duration-ms="2507" started-at="2021-06-06T20:10:24Z" data-provider="getAccountType" finished-at="2021-06-06T20:10:27Z">
           <params>
             <param index="0">
               <value>
@@ -22,7 +222,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createAccount -->
-        <test-method status="PASS" signature="createAccount(java.lang.String)[pri:1, instance:com.axelerant.Assignment2@2002fc1d]" name="createAccount" duration-ms="1270" started-at="2021-06-06T18:21:05Z" data-provider="getAccountType" finished-at="2021-06-06T18:21:07Z">
+        <test-method status="PASS" signature="createAccount(java.lang.String)[pri:1, instance:com.axelerant.Assignment2Test@5c671d7f]" name="createAccount" duration-ms="1012" started-at="2021-06-06T20:10:27Z" data-provider="getAccountType" finished-at="2021-06-06T20:10:28Z">
           <params>
             <param index="0">
               <value>
@@ -33,7 +233,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createAccount -->
-      </class> <!-- com.axelerant.Assignment2 -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      </class> <!-- com.axelerant.Assignment2Test -->
+    </test> <!-- API_Test -->
+  </suite> <!-- Suite -->
 </testng-results>

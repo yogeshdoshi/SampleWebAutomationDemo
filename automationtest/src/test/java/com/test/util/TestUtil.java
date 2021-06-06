@@ -1,19 +1,21 @@
 package com.test.util;
 
+import java.io.BufferedWriter;
+import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
+import java.io.FileWriter;
 import java.io.IOException;
+import java.util.HashMap;
 import java.util.Properties;
-
 import org.apache.log4j.Logger;
-import org.openqa.selenium.By;
+import org.openqa.selenium.Cookie;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.ui.ExpectedConditions;
 
-public class TestUtil {
-	private final int maxStaleExceptionRetries = 5;
+public class TestUtil {	
+	
 	private static Logger log=Logger.getLogger(TestUtil.class);	
 	
 	public static Properties readPropertiesFile(String fileName) throws IOException {
@@ -49,6 +51,10 @@ public class TestUtil {
 		}
 
 	}
+	
+	
+            
+	
 	
 	public static String getTextOfElement(WebElement ele) {
 		return ele.getText();

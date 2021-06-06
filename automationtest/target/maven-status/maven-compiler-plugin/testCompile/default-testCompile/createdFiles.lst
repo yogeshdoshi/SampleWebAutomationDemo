@@ -1,0 +1,11 @@
+com/parabank/pages/BillPg.class
+com/parabank/pages/AccountOpenedPg.class
+com/parabank/pages/TransferFundPg.class
+com/parabank/pages/DashBoardPg.class
+com/axelerant/Assignment1Test.class
+com/axelerant/Assignment2Test.class
+com/testbase/TestBase.class
+com/parabank/pages/NewAccountPg.class
+com/test/util/TestUtil.class
+com/parabank/pages/HomePg.class
+com/parabank/pages/AccountDetailsPg.class

@@ -1,0 +1,38 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 9, Failures: 4, Errors: 0, Skipped: 5, Time elapsed: 115.158 s <<< FAILURE! - in TestSuite
+loginTest(com.axelerant.Assignment1Test)  Time elapsed: 16.204 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"link text","selector":"Open New Account"}
+  (Session info: chrome=91.0.4472.77)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'INADMYDOSHI1.local', ip: 'fe80:0:0:0:101f:1e64:8124:ebce%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.77, chrome: {chromedriverVersion: 91.0.4472.19 (1bf021f248676..., userDataDir: /var/folders/yx/z7hkzxmd31j...}, goog:chromeOptions: {debuggerAddress: localhost:60753}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 616a670c532c7f3c7dc2165be4dd7862
+*** Element info: {Using=link text, value=Open New Account}
+	at com.axelerant.Assignment1Test.loginTest(Assignment1Test.java:59)
+
+createAccount(com.axelerant.Assignment2Test)  Time elapsed: 5.431 s  <<< FAILURE!
+java.lang.NullPointerException
+	at com.axelerant.Assignment2Test.createAccount(Assignment2Test.java:62)
+
+createAccount(com.axelerant.Assignment2Test)  Time elapsed: 2.443 s  <<< FAILURE!
+java.lang.NullPointerException
+	at com.axelerant.Assignment2Test.createAccount(Assignment2Test.java:62)
+
+afterTest(com.axelerant.Assignment1Test)  Time elapsed: 12.723 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"link text","selector":"Log Out"}
+  (Session info: chrome=91.0.4472.77)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'INADMYDOSHI1.local', ip: 'fe80:0:0:0:101f:1e64:8124:ebce%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.77, chrome: {chromedriverVersion: 91.0.4472.19 (1bf021f248676..., userDataDir: /var/folders/yx/z7hkzxmd31j...}, goog:chromeOptions: {debuggerAddress: localhost:60753}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 616a670c532c7f3c7dc2165be4dd7862
+*** Element info: {Using=link text, value=Log Out}
+	at com.axelerant.Assignment1Test.afterTest(Assignment1Test.java:154)
+

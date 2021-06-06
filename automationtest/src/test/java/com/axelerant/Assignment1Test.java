@@ -4,7 +4,6 @@ import java.io.File;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;
-
 import org.apache.commons.io.FileUtils;
 import org.apache.log4j.Logger;
 import org.openqa.selenium.OutputType;
@@ -29,10 +28,10 @@ import com.relevantcodes.extentreports.LogStatus;
 import com.test.util.TestUtil;
 import com.testbase.TestBase;
 
-public class Assignment1 extends TestBase {
-	private static Logger log=Logger.getLogger(Assignment1.class);
+public class Assignment1Test extends TestBase {
+	private static Logger log=Logger.getLogger(Assignment1Test.class);
 	ExtentTest logger;
-	public ArrayList<Integer> newlyCreatedAccountNos=new ArrayList<Integer>(); 
+	public ArrayList<Integer> newlyCreatedAccountNos=new ArrayList<Integer>(); 	
 	
 	
 @DataProvider(name="accounttype")
@@ -55,8 +54,8 @@ public Object[][] getNewlyCreatedAccountNos(){
 public void loginTest() {
 	logger = extent.startTest("loginTest");
 	HomePg home=new HomePg(driver);
-	home.login(prop.getProperty("username"), prop.getProperty("password"));
-	DashBoardPg db=new DashBoardPg(driver);
+	home.login(prop.getProperty("username"), prop.getProperty("password"));	
+	DashBoardPg db=new DashBoardPg(driver);	
 	Assert.assertEquals(db.getNewAccountElement().getText(), "Open New Account" , "Open New Account is not visible");
 	logger.log(LogStatus.PASS, "Test Case Passed is passTest");
 }

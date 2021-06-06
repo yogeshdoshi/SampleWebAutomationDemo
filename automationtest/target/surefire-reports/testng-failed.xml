@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" verbose="0" name="Failed suite [Surefire suite]">
+  <test thread-count="1" verbose="0" name="Surefire test(failed)">
+    <classes>
+      <class name="com.axelerant.Assignment1Test">
+        <methods>
+          <include name="paymentTransferAndVerifyTransactionDetails_TC003_001"/>
+          <include name="afterTest"/>
+          <include name="suiteTeardown"/>
+          <include name="loginTest"/>
+          <include name="verifyNewAccountOpening_TC001"/>
+          <include name="paymentTransferAndVerifyTransactionDetails_TC003_002"/>
+          <include name="beforeSuite"/>
+          <include name="verifyNewlyCreatedAccountDetails_TC002"/>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- com.axelerant.Assignment1Test -->
+      <class name="com.axelerant.Assignment2Test">
+        <methods>
+          <include name="createAccount" invocation-numbers="0 1"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- com.axelerant.Assignment2Test -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->
