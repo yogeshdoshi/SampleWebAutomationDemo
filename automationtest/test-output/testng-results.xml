@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="3997" started-at="2021-06-06T18:21:03Z" finished-at="2021-06-06T18:21:07Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="3997" started-at="2021-06-06T18:21:03Z" finished-at="2021-06-06T18:21:07Z">
+      <class name="com.axelerant.Assignment2">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.axelerant.Assignment2@2002fc1d]" name="beforeTest" is-config="true" duration-ms="11" started-at="2021-06-06T18:21:03Z" finished-at="2021-06-06T18:21:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="createAccount(java.lang.String)[pri:1, instance:com.axelerant.Assignment2@2002fc1d]" name="createAccount" duration-ms="2700" started-at="2021-06-06T18:21:03Z" data-provider="getAccountType" finished-at="2021-06-06T18:21:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createAccount -->
+        <test-method status="PASS" signature="createAccount(java.lang.String)[pri:1, instance:com.axelerant.Assignment2@2002fc1d]" name="createAccount" duration-ms="1270" started-at="2021-06-06T18:21:05Z" data-provider="getAccountType" finished-at="2021-06-06T18:21:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createAccount -->
+      </class> <!-- com.axelerant.Assignment2 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
